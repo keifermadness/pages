@@ -6,6 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
+
+  currentPage = 0;
+
   images = [
     {
       title: 'At the Beach',
@@ -18,6 +21,10 @@ export class AppComponent {
     {
       title: 'At the Lake',
       url: 'https://images.unsplash.com/photo-1439066615861-d1af74d74000?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bGFrZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60',
+    },
+    {
+      title: 'In a Sewer',
+      url: 'https://images.unsplash.com/photo-1530424257364-cd52a3e9bd40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c2V3ZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60',
     },
   ];
 }
